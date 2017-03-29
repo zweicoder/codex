@@ -10,7 +10,7 @@
 import React, { PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.css';
-import MarkdownEditor from '../../components/MarkdownEditor'
+import CodexEditor from '../../components/CodexEditor'
 
 class Home extends React.Component {
   static propTypes = {
@@ -27,7 +27,7 @@ class Home extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>Codex</h1>
-          <MarkdownEditor/>
+          <CodexEditor/>
         </div>
       </div>
     );

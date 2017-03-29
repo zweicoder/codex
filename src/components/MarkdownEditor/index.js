@@ -37,6 +37,7 @@ class MarkdownEditor extends React.Component {
    */
 
   state = {
+    // This key MUST be state
     state: Raw.deserialize(initialState, { terse: true })
   };
 
@@ -74,7 +75,7 @@ class MarkdownEditor extends React.Component {
 
   /**
    *
-   * Render the example.
+   * Render the editor.
    *
    * @return {Component} component
    */
@@ -119,6 +120,8 @@ class MarkdownEditor extends React.Component {
         return this.onBackspace(e, state)
       case 'enter':
         return this.onEnter(e, state)
+      case '1':
+        console.log(state)
     }
   }
 

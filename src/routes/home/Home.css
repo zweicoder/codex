@@ -14,10 +14,13 @@
   padding-right: 20px;
 }
 
+/*todo take out box shadow and background to editor style*/
 .container {
-  margin: 0 auto;
-  padding: 0 0 40px;
+  margin: 10px auto;
+  padding: 40px;
   max-width: var(--max-content-width);
+  box-shadow: #888888 2px 2px 5px;
+  background: #ffffff;
 }
 
 .newsItem {
@@ -29,21 +32,21 @@
 }
 
 .newsDesc {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: 1.125rem;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.125rem;
+}
 
-  pre {
-    white-space: pre-wrap;
-    font-size: 0.875rem;
-  }
+pre {
+  white-space: pre-wrap;
+  font-size: 0.875rem;
+}
 
-  img {
-    max-width: 100%;
-  }
+img {
+  max-width: 100%;
+}
 }

@@ -11,13 +11,11 @@
 @global-import 'normalize.css' ;
 
 blockquote {
-  margin: 10px 10px 20px;
-  border-left: 0.25em #dfe2e5 solid;
-}
+  background: #f9f9f9;
+  border-left: 3px solid #ccc;
+  margin: 0 10px 0;
+  padding: 0 10px 0;
 
-body {
-  /*Override bootstrap font*/
-  font-family: var(--font-family-base);
 }
 
 /*
@@ -29,7 +27,8 @@ html {
   font-weight: 100;
   font-size: 1em; /* ~16px; */
   font-family: var(--font-family-base);
-  line-height: 1.375; /* ~22px */
+  line-height: 2em;
+  background: #f9f9f9;
 }
 
 a {
